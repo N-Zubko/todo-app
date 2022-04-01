@@ -5,9 +5,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../images/space-galaxy-background.jpeg");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task {
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+.input-form, .actions {
+  text-align: center;
+}
+.main {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.content {
+  border: 2px #5faad8 solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  opacity: 0.9;
+}
+
+table {
+  width: 100%
+}
+
+td:first-child {
+  width: 100%;
+}
+
+td:last-child {
+  min-width: 125px;
+}
+
+th {
+  text-align: left;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #c0c0c0 solid;
+}
+
+button {
+  cursor: pointer;
+  margin:0 0.3em 0.3em 0;
+  border-radius: 0.5em;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  font-size: medium;
+  text-align:center;
+  transition: all 0.2s;
+  background-color: #5faad8;
+  color: #ffffff;
+  border: 2px solid #5faad8;
+}
+
+button.add {
+  width: 100px;
+  margin-left: 10px;
+}
+
+button:hover{
+  color:#5faad8;
+  background-color:#FFFFFF;
+  }
